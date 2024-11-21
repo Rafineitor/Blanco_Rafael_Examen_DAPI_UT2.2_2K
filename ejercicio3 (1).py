@@ -1,0 +1,7 @@
+palabra = input("Ingrese una palabra: ")
+cons = input("Ingrese una consonante: ")
+vocal = input("Ingrese una vocal: ")
+cons_mayus = cons.upper()
+palabra1 = palabra.replace(cons,cons_mayus)
+palabra2 = palabra1.replace(vocal,"")
+print (palabra2)
